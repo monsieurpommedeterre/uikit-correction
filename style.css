@@ -65,3 +65,17 @@ background-position: center bottom;
 .card-content {
     padding: 10px;
 }
+.navbar {
+    list-style: none;
+    border: 1px solid #DFDFDF;
+    padding: 10px;
+}
+.navbar-item {
+    display: inline;
+}
+
+@media (max-width: 700px) {
+    .navbar-item {
+        display: block;
+    }
+}
