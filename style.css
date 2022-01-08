@@ -33,3 +33,21 @@ h1 {
     margin: 15px 0px;
     padding-left: 20px;
 }
+.my-list {
+    list-style: none;
+    border: 1px solid #DFDFDF;
+    padding: 0px;
+    width: 350px;
+    border-radius: 5px;
+}
+.my-list-element {
+    border-top: 1px solid #DFDFDF;
+}
+/* Une autre façon de cibler autrement que par la class my-list-element */
+.my-list li {
+    padding: 5px;
+    padding-left: 15px;
+}
+.my-list-element:first-child {
+    border-top: none;
+}
