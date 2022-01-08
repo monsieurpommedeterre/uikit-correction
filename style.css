@@ -23,3 +23,13 @@ h1 {
     color: #fff;
     border-radius: 5px;
 }
+.alert {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    border-radius: 5px;
+    padding: 5px;
+    width: 350px;
+    margin: 15px 0px;
+    padding-left: 20px;
+}
